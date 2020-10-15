@@ -2,9 +2,10 @@
 .Contact {
   padding: 1em;
   background: #555;
-  width: 220px;
+  width: fit-content;
   display: flex;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 /* Contact image */
@@ -17,7 +18,7 @@
 
 /* Name */
 .Contact .name {
-  padding-right: 15px;
+  width: 150px;
   margin: 0 0 0.25rem;
   color: #eee;
 }
